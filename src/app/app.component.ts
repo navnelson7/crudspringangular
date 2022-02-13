@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { ListarComponent } from './persona/listar/listar.component';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'crudspringangular';
+  
+  constructor(private router:Router){}
+
+  Listar(){
+    this.router.navigate(['listar']);
+  }
+
+  Nuevo(){
+    this.router.navigate(['add']);
+  }
 }
