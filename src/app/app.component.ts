@@ -19,4 +19,7 @@ export class AppComponent {
   Nuevo(){
     this.router.navigate(['add']);
   }
+  ListarPais(){
+    this.router.navigate(['listarpais'])
+  }
 }
