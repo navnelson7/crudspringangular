@@ -8,7 +8,7 @@ import { ListarComponent } from './persona/listar/listar.component';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'crudspringangular';
+  title = 'App Citas';
   
   constructor(private router:Router){}
 
